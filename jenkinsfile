@@ -6,7 +6,7 @@ node {
 	}
 
 	stage('Build image'){
-		app = docker.build('faisalawan/example-app')
+		app = docker.build('faisalawan90/example-app')
 	}
 
 	stage('Push image'){
